@@ -1,0 +1,28 @@
+@charset "UTF-8";
+body {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-color: #E2E7EA;
+	background-image: url(images/background.jpg);
+}
+nav {
+	color: rgba(255,255,255,1.00);
+	font-family: comfortaa;
+	font-style: normal;
+	font-weight: 300;
+}
+.nav-wrapper.cyan.darken-1 {
+	padding-left: 23px;
+}
+h1 {
+	width: 652px;
+	height: 503px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	color: rgba(229,229,229,0.00);
+	background-image: url(images/Logo.png);
+	background-repeat: no-repeat;
+	margin-top: 81px;
+}

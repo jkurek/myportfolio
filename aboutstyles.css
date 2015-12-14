@@ -1,0 +1,100 @@
+@charset "UTF-8";
+body {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-color: #E2E7EA;
+	background-image: url(images/background.jpg);
+}
+nav {
+	color: rgba(255,255,255,1.00);
+	font-family: comfortaa;
+	font-style: normal;
+	font-weight: 300;
+}
+h2 {
+	color: rgba(0,172,195,1.00);
+	font-family: comfortaa;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 47px;
+	position: relative;
+	margin-left: 603px;
+	margin-right: auto;
+	width: 554px;
+	height: 52px;
+	padding-left: auto;
+	padding-right: auto;
+	bottom: 400px;
+}
+section {
+	width: 1290px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+#abouttext {
+	font-family: comfortaa;
+	font-style: normal;
+	font-weight: 300;
+	color: rgba(91,101,102,1.00);
+	font-size: 14px;
+	width: 567px;
+	position: relative;
+	margin-left: 603px;
+	margin-right: auto;
+	z-index: 42;
+	height: 245px;
+	bottom: 403px;
+}
+.nav-wrapper.cyan.darken-1 {
+	padding-left: 23px;
+}
+.fa.fa-envelope {
+	color: #00ACC1;
+	font-size: 79px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 96px;
+	height: 83px;
+	text-align: center;
+	position: absolute;
+	left: 601px;
+	bottom: 373px;
+}
+.fa.fa-linkedin-square {
+	color: #00ACC1;
+	font-size: 79px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 96px;
+	height: 83px;
+	text-align: center;
+	position: absolute;
+	left: 819px;
+	bottom: 373px;
+}
+.fa.fa-file {
+	color: #00ACC1;
+	font-size: 74px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 96px;
+	height: 83px;
+	text-align: center;
+	position: absolute;
+	left: 1058px;
+	bottom: 373px;
+}
+h1 {
+	width: 520px;
+	height: 395px;
+	position: relative;
+	margin-left: 112px;
+	margin-right: auto;
+	color: rgba(229,229,229,0.00);
+	background-image: url(images/me.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
