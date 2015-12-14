@@ -17,55 +17,63 @@
 </head>
 <body>
 
-<nav>
-  <div class="nav-wrapper cyan darken-1">
-    <a href="index.html" class="brand-logo">Jessica Kurek</a>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li><a href="design.html">Design</a></li>
-      <li><a href="photography.html">Photography</a></li>
-            <li><a href="about.html">About</a></li>
-    </ul>
-  </div>
-</nav>
-  
+  <nav>
+    <div class="nav-wrapper cyan darken-1">
+      <a href="index.html" class="brand-logo">Jessica Kurek</a>
+      <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="design.html">Design</a></li>
+        <li><a href="photography.html">Photography</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-nav">        
+        <li><a href="design.html">Design</a></li>
+        <li><a href="photography.html">Photography</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>  
 <div class="container my-portfolio">
   <div class="row">    
-    <div class="slider">
+	<div class="col s12 m12 l12">
+   		<div class="slider">
       <ul class="slides">
         <li>
-          <img src="images/Photography/Photograph1.jpg" alt="">
+          <img class="responsive-img" src="images/Photography/Photograph1.jpg" alt="">
         </li>
         <li>
-          <img src="images/Photography/Photograph2.jpg" alt="">
+          <img class="responsive-img" src="images/Photography/Photograph2.jpg" alt="">
         </li>
         <li>
-          <img src="images/Photography/Photograph3.jpg" alt=""> 
+          <img class="responsive-img" src="images/Photography/Photograph3.jpg" alt=""> 
         </li>
         <li>
-          <img src="images/Photography/Photograph4.jpg" alt="" />
+          <img class="responsive-img" src="images/Photography/Photograph4.jpg" alt="" />
         </li>
         <li>
-          <img src="images/Photography/Photograph5.jpg" alt="">
+          <img class="responsive-img" src="images/Photography/Photograph5.jpg" alt="">
         </li>
         <li>
-          <img src="images/Photography/Photograph6.jpg" alt="">
+          <img class="responsive-img" src="images/Photography/Photograph6.jpg" alt="">
         </li>
         <li>
-          <img src="images/Photography/Photograph7.jpg" alt="">
+          <img class="responsive-img" src="images/Photography/Photograph7.jpg" alt="">
         </li>
         <li>
-          <img src="images/Photography/Photograph8.jpg" alt="">
+          <img class="responsive-img" src="images/Photography/Photograph8.jpg" alt="">
         </li>
         <li>
-          <img src="images/Photography/Photograph9.jpg" alt="" >
+          <img class="responsive-img" src="images/Photography/Photograph9.jpg" alt="" >
         </li>
         <li>
-          <img src="images/Photography/Photograph10.jpg" alt="">
+          <img class="responsive-img" src="images/Photography/Photograph10.jpg" alt="">
         </li>
                 <li>
-          <img src="images/Photography/Photograph11.jpg" alt="">
+          <img class="responsive-img" src="images/Photography/Photograph11.jpg" alt="">
         </li>
       </ul>
+    </div>
+
     </div>
   </div>
 </div>
@@ -74,6 +82,7 @@
 <script>
   $(document).ready(function(){
     $('.materialboxed').materialbox();
+	$(".button-collapse").sideNav();
 	$('.slider').slider({full_width: true});
   });
 </script>

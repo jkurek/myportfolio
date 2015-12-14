@@ -11,17 +11,23 @@
 <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="https://use.edgefonts.net/comfortaa:n3:default.js" type="text/javascript"></script>
 </head>
 <body>
-<nav>
-  <div class="nav-wrapper cyan darken-1">
-    <a href="index.html" class="brand-logo">Jessica Kurek</a>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li><a href="design.html">Design</a></li>
-      <li><a href="photography.html">Photography</a></li>
-            <li><a href="about.html">About</a></li>
-    </ul>
-  </div>
-</nav>
-<section>
+  <nav>
+    <div class="nav-wrapper cyan darken-1">
+      <a href="index.html" class="brand-logo">Jessica Kurek</a>
+      <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="design.html">Design</a></li>
+        <li><a href="photography.html">Photography</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-nav">        
+        <li><a href="design.html">Design</a></li>
+        <li><a href="photography.html">Photography</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section>
 <h1>me</h1>
 <h2> My name is Jessica.</h2>
 <p id="abouttext"> I am a 24 year old designer and photographer in New Jersey. I graduated with a Bachelors in Fine Arts degree with a concentration in Graphic Design, as well as a minor in Photography from Monmouth University. I love creating functional and inventful aesthetics with my own personal touches of textures, photography, and typography. I am excited to continue to build my knowledge and experience in graphic design and photography.</p>
@@ -34,6 +40,7 @@
 <script>  
   $(document).ready(function(){
     $('.materialboxed').materialbox();
+	$(".button-collapse").sideNav();
 	$('.slider').slider({full_width: true});
   });
 </script>
